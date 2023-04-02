@@ -1,0 +1,23 @@
+{
+  "name": "fitpass",
+  "version": "1.0.0",
+  "description": "Fitpass é uma aplicação genérica do gympass",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "tsup": "6.7.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.3"
+  },
+  "dependencies": {
+    "fastify": "4.15.0"
+  }
+}
